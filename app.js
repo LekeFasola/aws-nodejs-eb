@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended:false}))
 
 app.get('/', function (req, res) {
   res.render('index', {
-    title: 'BackSpace Academy & Elastic Beanstalk'
+    title: 'Leke Fasola Cloud Computing & Elastic Beanstalk'
     })
     res.status(200).end();
 })
