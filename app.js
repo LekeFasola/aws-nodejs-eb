@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended:false}))
 
 app.get('/', function (req, res) {
   res.render('index', {
-    title: 'Leke Fasola Cloud Computing & Elastic Beanstalk Feb22'
+    title: 'Leke Fasola Cloud Computing & Elastic Beanstalk Feb22 Afternoon'
     })
     res.status(200).end();
 })
